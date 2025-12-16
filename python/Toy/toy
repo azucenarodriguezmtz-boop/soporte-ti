@@ -1,0 +1,36 @@
+# HISTORIAS LOCAS
+
+#nombre = input("Nombre: ")
+#puesto = input("Puesto: ")
+#adj1 = input("Adjetivo 1: ")
+#adj2 = input("Adjetivo 2: ")
+#comida1 = input("Comida 1: ")
+#comida2 = input("Comida 2: ")
+#sentimiento = input("Sentimiento: ")
+
+print("¿Cuál es tu nombre?")
+nombre = input()
+
+print("¿Cuál es el puesto para el que te preparas?")
+puesto = input()
+
+print("Describe a tu compañero :")
+adj1 = input()
+
+print("Describe a tu profesor :")
+adj2 = input()
+
+print("¿Qué comen hoy?")
+comida1 = input()
+
+print("¿Qué mas comen ?")
+comida2 = input()
+
+print("Escribe que sienten en el curso:")
+sentimiento = input()
+
+print(nombre, "ha comenzado hoy su primer curso de Generation.")
+print("Se están formando como", puesto + ".")
+print("Su compañero les pareció muy", adj1 + ", pero su profesor era", adj2 + ".")
+print("Para comer comen", comida1, "y", comida2, "mientras repasan sus notas.")
+print("Sienten", sentimiento, "pero están decididos a completar el curso.")
